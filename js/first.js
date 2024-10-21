@@ -44,9 +44,9 @@ let work = null;
 // symbol => unique
 
 
-console.log(typeof name);
+/* console.log(typeof name);
 console.log(typeof undefined);
-console.log(typeof null);
+console.log(typeof null); */
 
 
 
