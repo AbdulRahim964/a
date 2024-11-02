@@ -29,7 +29,8 @@ function returnSecondValue (getArray){
 return getArray[2]
 }
 
-// console.log(returnSecondValue(myHeroes));
+ 
+console.log(returnSecondValue(myHeroes));
 console.log(returnSecondValue(["Ironman", "Captain America", "Hulk", "Dr Srange", "Spiderman", "Antman", "Deadpool"]));
 
 
