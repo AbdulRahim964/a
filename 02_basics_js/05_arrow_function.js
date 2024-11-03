@@ -35,10 +35,10 @@ name() */
 
 chai () */
 
- let chai = () => {
+/* let chai = () => {
     username: "ARK"
     console.log(this.username);    
-}
+} */
 
 
 /* let addTwo = (num1, num2) => {
@@ -49,12 +49,15 @@ chai () */
 // let addTwo = (num1, num2) =>  (num1 + num2)
 let addTwo = (num1, num2) =>  ({username: "Mohan"})
 
-
 console.log(addTwo(3, 4));
 
 
 
+(function chai (){                 // named IIFE
+    console.log(`DB CONNECTED`);
+})();
 
-
-
+( (name) => {                      // unamed IIFE
+    console.log(`DB CONNECTED TWO ${name}`);
+})("Mir");
 
