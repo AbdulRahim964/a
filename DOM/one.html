@@ -11,20 +11,34 @@
          }
     </style>
 </head>
-<body class="bg-black">
- <div>
-    <h1 id="title" class="heading">DOM learning on Chai aur code</h1>
-    <h2>Lorem ipsum dolor sit, amet consectetur</h2>
-    <h2>Lorem ipsum dolor sit, amet consectetur</h2>
-    <h2>Lorem ipsum dolor sit, amet consectetur</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur</p>
-    <ul>
-        <li class=" list-item">one</li>
-        <li class=" list-item">two</li>
-        <li class=" list-item">three</li>
-        <li class=" list-item">four</li>
-    </ul>
- </div>
- 
+<body style="background-color: #212121; color: #fff;">
+ <div class = "parent">
+    <div class="day">Monday</div>
+    <div class="day">Tuesday</div>
+    <div class="day">Wednesday</div>
+    <div class="day">Thuresday</div>
+ </div> 
 </body>
+<script>
+   const parent = document.querySelector(".parent")
+//    console.log(parenr);
+//    console.log(parent.children);
+//    console.log(parent.children[1].innerHTML);
+
+/* for (let index = 0; index < parent.children.length; index++) {
+    console.log(parent.children[index].innerHTML);
+}  */ 
+
+ parent.children[1].style.color = "orange";
+//  console.log(parent.firstElementChild);
+//  console.log(parent.lastElementChild);  
+
+const dayOne =  document.querySelector(".day");
+/*console.log(dayOne); 
+console.log(dayOne.parentElement);
+console.log(dayOne.nextElementSibling); */ 
+
+console.log("Nodes:", parent.childNodes);
+
+</script>
 </html> 
