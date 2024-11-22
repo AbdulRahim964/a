@@ -12,15 +12,15 @@
 <script>
                                 //  setTimeout
 
- let sayMyName = function () {
+/* let sayMyName = function () {
     console.log('Abdul Rahim');
 } 
- setTimeout( sayMyName, 2000);
+ setTimeout( sayMyName, 2000); */
 
 
                                 // clearTimeout
 
-let changeText = function () {
+/* let changeText = function () {
     document.querySelector('h1').innerHTML = " best JS series"
 }
 let stopped = setTimeout( changeText, 2000)
@@ -28,15 +28,16 @@ let stopped = setTimeout( changeText, 2000)
 document.querySelector('#stop').addEventListener('click', function () {
     clearTimeout(stopped)
     console.log("stopped");
-})
+}) */
 
 
                             //  setInterval
 
-/* setInterval( function () {
-    console.log('Hello World');
-}, 2000) */
-
+let sayDate = function (str) {
+    console.log(str, Date.now());
+}                            
+ let intervail = setInterval( sayDate , 2000, "Hi")
+clearInterval(intervail);
 
 
 
