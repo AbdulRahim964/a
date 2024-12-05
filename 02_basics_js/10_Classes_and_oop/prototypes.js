@@ -57,12 +57,3 @@ Teacher.__proto__ = User
                          // Modern Syntax
 
 Object.setPrototypeOf(TeachingSupport, Teacher)
-   
-
-
-
-
-
-
-
-
